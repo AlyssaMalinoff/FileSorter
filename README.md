@@ -1,4 +1,4 @@
-This program is meant to sort through my personal digital library and sort titles according to defined keywords. I would like to reuse this program whenever additional titles are added. 
+This program is meant to sort through my personal digital library dump and sort titles according to defined keywords. I would like to reuse this program whenever additional titles are added. 
 
 
 
