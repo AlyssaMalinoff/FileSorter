@@ -11,10 +11,7 @@ TODO
 
 def main():
     source_directory = input("Please enter the source directory path: ") #E:\LibraryTestSource
-    sorter = FileSorter(source_directory, destination_directory, category_dict)
-    sorter.sort_and_rename_files()
-
-
+    
     if not os.path.isdir(source_directory):
         print("The provided source directory does not exist.")
         return
@@ -28,7 +25,8 @@ def main():
         'CompTIA': ['Comptia', 'cv0-002', 'Plus']
     }
 
-    FileSorter(source_directory, destination_directory, category_dict)
+    sorter = FileSorter(source_directory, destination_directory, category_dict)
+    sorter.sort_and_rename_files()
 
 if __name__ == "__main__":
     main()
