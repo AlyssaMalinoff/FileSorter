@@ -3,9 +3,11 @@ import shutil
 from functions import FileSorter  # Update import
 
 '''
--Fix the file move process to make sure the files are renamed beforehand
-    -or dont? it might be easier to move the files first because we know all the source files will be lowercase. 
-    Once they're sorted we can run FileScrubber? This would also make sorting easier as the dict values could just be lowercase 
+-move create_category_dict into categorize_file for clarity
+
+-add exception for keyword not matching (currently files are not moved until key match)
+    -we can just leave anything that doesnt match in a special folder in the dest dirctory for manual (human) sorting
+    -make sure this folder is created within the dest directory
 '''
 
 def main():
