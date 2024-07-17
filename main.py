@@ -4,6 +4,7 @@ from functions import FileSorter  # Update import
 
 '''
 -move create_category_dict into categorize_file for clarity
+    -maybe make it its own file? seems kind of extensive due to how many keys there are
 
 -add exception for keyword not matching (currently files are not moved until key match)
     -we can just leave anything that doesnt match in a special folder in the dest dirctory for manual (human) sorting
